@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>order</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>order</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Ebot | Chatbot para ecommerce</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='71b534786381839844b43cccba493fd4.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Ebot database entities</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='779222dda9d05dd70b83160f094eaf9b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>order</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Ordem de compra.</p>
+
+<p>Ordem agregadora de informações da compra. Através dela será possível saber qual usuário fez a compra, qual foi a transação e consequentemente o método de pagamento, sessão (localização aproximada), produtos comprados e forma de entrega.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="e8f883b80d55a14a0621d8123e9cdba3.html">id</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="726aee9030d91ce542897eec0e7a8778.html">transactionId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='742d4add52db58bb0cc4b77595a102d7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>transaction</a> ::
+              
+              <a href='7df24db53082b113c676fd6b47e22806.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>Id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="58ee9bb3ac2c0dc6386d8169474e0344.html">userID</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='f41dd5b9874ee426aceda65bee75b857.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>users</a> ::
+              
+              <a href='c734980b5b8701b47da8a083f9a3355e.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="7e86137a93e4571ce21bda08b9a57abe.html">sessionId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='dab270053887446e6e18c114b564aa45.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>session</a> ::
+              
+              <a href='92a93220bc048f2ee5d297fe2f39a065.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="601e42ba64f95a38168b1f4e365c6a32.html">orderProductsId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='0d5bc51ca8533e8d4d36c04f98757da5.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>orderProducts</a> ::
+              
+              <a href='144ab7bf4eb68f5cde13fd3e974260bc.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="d653ccd7de7371d26117731c0bcde07e.html">shippingId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='54066893ca48daf009dd71c2db72dda4.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>shipping</a> ::
+              
+              <a href='8fedcd0c4a237bd9d9f4716be0556a60.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="d9a3edb4f03ea87485165dbfdd484125.html">orderDate</a></td>
+            <td>TIMESTAMP</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="dacb143304fda4c7c8f2b04dab352648.html">totalAmount</a></td>
+            <td>DECIMAL</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='f41dd5b9874ee426aceda65bee75b857.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>users</a></td>
+            <td>1</td>
+            <td>id</td>
+            <td><a href='06cc75ccf590a6165828d477c708398d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(users—order)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='0d5bc51ca8533e8d4d36c04f98757da5.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>orderProducts</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='6d0ba31712acded69b527923c67a7861.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—orderProducts)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='dab270053887446e6e18c114b564aa45.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>session</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='3b4696c90caed20219ba4bd389328e97.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—session)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='54066893ca48daf009dd71c2db72dda4.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>shipping</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='b292b3ca80362622b0667215184b35e9.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—shipping)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='742d4add52db58bb0cc4b77595a102d7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>transaction</a></td>
+            <td>1</td>
+            <td>id</td>
+            <td><a href='3aec7c0aa0893e294c88c262ab47ddec.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(transaction—order)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='54066893ca48daf009dd71c2db72dda4.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>shipping</a></td>
+            <td>1</td>
+            <td>id</td>
+            <td><a href='9e0405a45469195d9b590b7bbf35ac28.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(shipping—order)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='dab270053887446e6e18c114b564aa45.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>session</a></td>
+            <td>1</td>
+            <td>id</td>
+            <td><a href='84c67e0347ebe89d0f136ed3fb72f9c4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(session—order)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='0d5bc51ca8533e8d4d36c04f98757da5.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>orderProducts</a></td>
+            <td>0..*</td>
+            <td>orderId</td>
+            <td><a href='23dcc7f18743642a4b11920b3d6764da.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(orderProducts—order)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>order</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='06cc75ccf590a6165828d477c708398d.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(users—order)</a></li>
+        
+        <li><a href='6d0ba31712acded69b527923c67a7861.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—orderProducts)</a></li>
+        
+        <li><a href='3b4696c90caed20219ba4bd389328e97.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—session)</a></li>
+        
+        <li><a href='b292b3ca80362622b0667215184b35e9.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—shipping)</a></li>
+        
+        <li><a href='3aec7c0aa0893e294c88c262ab47ddec.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(transaction—order)</a></li>
+        
+        <li><a href='9e0405a45469195d9b590b7bbf35ac28.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(shipping—order)</a></li>
+        
+        <li><a href='84c67e0347ebe89d0f136ed3fb72f9c4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(session—order)</a></li>
+        
+        <li><a href='23dcc7f18743642a4b11920b3d6764da.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(orderProducts—order)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='6d0ba31712acded69b527923c67a7861.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—orderProducts)</a></li>
+        
+        <li><a href='3b4696c90caed20219ba4bd389328e97.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—session)</a></li>
+        
+        <li><a href='b292b3ca80362622b0667215184b35e9.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(order—shipping)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>

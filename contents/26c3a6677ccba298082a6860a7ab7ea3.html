@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>creditCard</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>creditCard</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Ebot | Chatbot para ecommerce</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='71b534786381839844b43cccba493fd4.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Ebot database entities</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='26c3a6677ccba298082a6860a7ab7ea3.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>creditCard</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Cartão de credito - método de pagamento.</p>
+
+<p>No momento do cadastro ou antes de finalizar uma compra o sistema solicitará os dados do cartão de crédito do usuário. </p>
+
+<p>No momento da compra será requisitado para que o usuário confirme seus dados.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="361b4a71343fb6687622684b7ae93199.html">id</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="17df59f8428f67c3feb064003872e2e0.html">userId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='f41dd5b9874ee426aceda65bee75b857.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>users</a> ::
+              
+              <a href='c734980b5b8701b47da8a083f9a3355e.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="705eb361b30c95d50537fa6eb6be9649.html">addressId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='05a5b86d701baf05697fae0c1dd873a4.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>address</a> ::
+              
+              <a href='567109ecf2e06fb1e382f3f1bcba4c47.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="b2f34201b2f018ebcc44e2a3651badd4.html">cardNumber</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="14b0e3c15629fe4bd7b53d469df5d0ed.html">cardName</a></td>
+            <td>VARCHAR</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="ff3d0a9ca144a14d0946ae1fc53bb6d8.html">cardValid</a></td>
+            <td>VARCHAR</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="7a416472b8a8f290864744e6be3bd34a.html">cardCvc</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='f41dd5b9874ee426aceda65bee75b857.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>users</a></td>
+            <td>1</td>
+            <td>id</td>
+            <td><a href='7041a304d84b95686efd84198d0c66f2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(users—creditCard)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='742d4add52db58bb0cc4b77595a102d7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>transaction</a></td>
+            <td>0..*</td>
+            <td>creditCardId</td>
+            <td><a href='062f098b7fba585b2a03b1e7562dfd54.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(creditCard—transaction)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='05a5b86d701baf05697fae0c1dd873a4.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>address</a></td>
+            <td>1</td>
+            <td>id</td>
+            <td><a href='b4cc0a80e53bda3ca64efd0018c4de37.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(address—creditCard)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>creditCard</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='7041a304d84b95686efd84198d0c66f2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(users—creditCard)</a></li>
+        
+        <li><a href='062f098b7fba585b2a03b1e7562dfd54.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(creditCard—transaction)</a></li>
+        
+        <li><a href='b4cc0a80e53bda3ca64efd0018c4de37.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(address—creditCard)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='062f098b7fba585b2a03b1e7562dfd54.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(creditCard—transaction)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>products</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>products</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Ebot | Chatbot para ecommerce</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='71b534786381839844b43cccba493fd4.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Ebot database entities</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='c03f5c8c80f6c5721c21c46de60765cd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>products</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Entidade de produto</p>
+
+<p>Serão os produtos cadastrados pelos lojistas que eventualmente serão comprados pelos usuários.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="89bf0817916acffd0e5ea185e62529ef.html">id</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="1aeb0aaa19c2354ccfffeae19ca7acdd.html">orderProductId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='0d5bc51ca8533e8d4d36c04f98757da5.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>orderProducts</a> ::
+              
+              <a href='144ab7bf4eb68f5cde13fd3e974260bc.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="5941e5333ce7ce12b7c276aa815d6c36.html">categoryId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='c78d1029a372ee1925ee23d2e3e2bc44.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>categories</a> ::
+              
+              <a href='c763b2fd79e636d6e17730216d68e047.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="76e62031dfa5e418ca9ea2f9105675c8.html">sellerId</a></td>
+            <td></td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='0c0c0ca88d0ed7e8be9bfc5ffc9fb8a3.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>seller</a> ::
+              
+              <a href='ee0f0b203d781bdc294ded9fa0fd4f64.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="48c4f45b5ac4ed02861fb5bc8c466312.html">brand</a></td>
+            <td>VARCHAR</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="7cd2adbd237adfbf35e66f73316d1acb.html">url</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="5b623511986bb11ddbec31240fe8464c.html">price</a></td>
+            <td>DECIMAL</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="01f0231625df71eeb1f7a8b14db2b984.html">oldPrice</a></td>
+            <td>DECIMAL</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="c5fdf3fdf6fcc387057aa2c2d5bd04bf.html">images</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="d714e685b4bad1545ed445754b0de967.html">details</a></td>
+            <td>TEXT</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="6f48e85aca2f33986a8db44913c53d70.html">name</a></td>
+            <td>VARCHAR</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="12f859be785bf46e07bf829023f9980f.html">availability</a></td>
+            <td>BOOLEAN</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="0480d95a556c8e4c199aa99e396590db.html">created</a></td>
+            <td>TIMESTAMP</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='9ae73f34c270749959b2e981e478c4cc.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>tags</a></td>
+            <td>0..*</td>
+            <td>productId</td>
+            <td><a href='77ab2b8c56ccc8949ecdee6a89f40c66.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—tags)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='0d5bc51ca8533e8d4d36c04f98757da5.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>orderProducts</a></td>
+            <td>1</td>
+            <td>id</td>
+            <td><a href='c4cc55bb8cf8e8509686556d0caa6047.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(orderProducts—products)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='c78d1029a372ee1925ee23d2e3e2bc44.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>categories</a></td>
+            <td>0..*</td>
+            <td>productsId</td>
+            <td><a href='b55f0afd54ee4655d09742e2ed9cba27.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(categories—products)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='0c0c0ca88d0ed7e8be9bfc5ffc9fb8a3.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>seller</a></td>
+            <td>1</td>
+            <td>id</td>
+            <td><a href='ae2a34b7173a4d95f4b4fce98ff98bdb.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(seller—products)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>products</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='77ab2b8c56ccc8949ecdee6a89f40c66.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—tags)</a></li>
+        
+        <li><a href='c4cc55bb8cf8e8509686556d0caa6047.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(orderProducts—products)</a></li>
+        
+        <li><a href='b55f0afd54ee4655d09742e2ed9cba27.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(categories—products)</a></li>
+        
+        <li><a href='ae2a34b7173a4d95f4b4fce98ff98bdb.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(seller—products)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='77ab2b8c56ccc8949ecdee6a89f40c66.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—tags)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>
